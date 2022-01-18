@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  
+<!-- Mirrored from www.drupal.org.pl/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Jan 2022 13:01:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120413406-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-120413406-1", {"groups":"default","anonymize_ip":true,"allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy" />
+<meta name="description" content="Wiele osób myśli, że uruchomienie strony internetowej to najczęściej kupno gotowego szablonu dla Drupala, Worpdressa czy innego systemu, a następnie wrzucenie tego na serwer, i to koniec prac. Takim podejściem z góry skazujemy się na porażkę biznesową, stratę czasu i pieniędzy. Z tego poradnika dowiesz się jak dobrze zbudować serwis internetowy." />
+<meta property="og:description" content="Wiele osób myśli, że uruchomienie strony internetowej to najczęściej kupno gotowego szablonu dla Drupala, Worpdressa czy innego systemu, a następnie wrzucenie tego na serwer, i to koniec prac. Takim podejściem z góry skazujemy się na porażkę biznesową, stratę czasu i pieniędzy. Z tego poradnika dowiesz się jak dobrze zbudować serwis internetowy." />
+<meta property="og:image" content="https://www.drupal.org.pl/sites/default/files/styles/responsive_image_2000/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=VchqS9F3" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779bf} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="pl" href="/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy" />
+<link rel="revision" href="/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy" />
+
+    <title>13 kroków do budowy dobrej strony internetowej dla firmy | Drupal.org.pl</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_HU6Yky7I7O3vWQve67SN3d7MDZ-qPf5BHEFLcZwFjaw.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_dEggoBz85L1LXUPgEtaHwAZrKYm4GWs5N_KBIJxBXxE.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_mAz31eti2GooHUcg5dpqz93fWF52vVWPmfzIBXvkRfs.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_6tCwVJQrw0iCRza_JGK_YbV20u8sNNiPAfV7adPXunQ.css" />
+
+    
+  </head>
+  <body class="page-node-23 path-node node--type-blog-post">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Przejdź do treści
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper" class="page-wrapper">
+  <header id="header" class="header" role="banner"
+          aria-label="Nagłówek strony">
+          <nav class="navbar" id="navbar-main">
+        <div class="container no-padding-sm">
+          <div class="navbar-brand">
+                     <a href="/" title="Skip to the home page" rel="home" class="float-left site-logo logo-png">
+      <img src="/themes/custom/droopler_subtheme/logo.png" alt="Skip to the home page" />
+    </a>
+  
+
+          </div>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar navbar-expand-lg">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                                  <div class="menu-region">  <div class="region region-primary-menu">
+    
+
+<div id="block-mainnavigation-2-droopler-subtheme" class="block block-we-megamenu block-we-megamenu-blockmain">
+  
+    
+      <div class="content">
+      <div class="region-we-mega-menu">
+  <nav  class="main navbar navbar-default navbar-we-mega-menu mobile-collapse hover-action" data-menu-name="main" data-block-theme="droopler_subtheme" data-style="Default" data-animation="None" data-delay="" data-duration="" data-autoarrow="" data-alwayshowsubmenu="" data-action="hover" data-mobile-collapse="0">
+    <ul  class="we-mega-menu-ul nav">
+  
+  
+  
+  
+<li  class="we-mega-menu-li with-submenu" data-level="0" data-element-type="we-mega-menu-li" data-id="63020542-cf2d-47cc-8d80-1c6d07c4ed38" data-submenu="1" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/" >
+      
+      O Drupalu
+
+      
+              <span class="d-submenu-toggler"></span>
+          </a>
+    
+
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav subul">
+  
+
+  
+  
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" data-id="3733d5ba-bd07-4f23-9fd5-031a47a8df61" data-submenu="0" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/drupal-w-sieci" >
+      
+      Linki
+
+      
+          </a>
+    
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+  </div>
+</div>
+
+</li>
+
+
+  
+  
+<li  class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" data-id="/blog" data-submenu="0">
+      <a class="we-mega-menu-li" title="" href="/blog" >
+      
+      Blog
+
+      
+          </a>
+    
+</li>
+
+  
+  
+  
+<li  class="we-mega-menu-li with-submenu" data-level="0" data-element-type="we-mega-menu-li" data-id="ceeb3358-21fc-4d90-a60f-9fcd8f0f0029" data-submenu="1" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/o-fundacji" >
+      
+      O Fundacji
+
+      
+              <span class="d-submenu-toggler"></span>
+          </a>
+    
+
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav subul">
+  
+
+  
+  
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" data-id="2f7cb1e3-5512-4993-b0bd-4a5d966e8171" data-submenu="0" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/wydarzenia" >
+      
+      Wydarzenia
+
+      
+          </a>
+    
+</li>
+
+
+  
+  
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" data-id="b34542d9-6ce2-49f3-852b-30726ccf9101" data-submenu="0" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/kontakt" >
+      
+      Kontakt
+
+      
+          </a>
+    
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+  </div>
+</div>
+
+</li>
+
+
+  
+  
+<li  class="we-mega-menu-li" data-level="0" data-element-type="we-mega-menu-li" data-id="cb110ae2-c5f7-41ae-af6a-6c617bc1f7d8" data-submenu="0" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+      <a class="we-mega-menu-li" title="" href="/partnerzy" >
+      
+      Partnerzy
+
+      
+          </a>
+    
+</li>
+
+</ul>
+
+  </nav>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+                                              </div>
+            </nav>
+                  </div>
+      </nav>
+      </header>
+
+          <div class="admin_tabs container">
+      
+    </div>
+    <div id="main-wrapper" class="layout-main-wrapper clearfix">
+          <div class="container-fluid" id="main">
+        <div class="row clearfix">
+        
+          <main class="main-content">
+            <section class="section">
+              <a id="main-content" tabindex="-1"></a>
+                <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<article role="article" about="/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy" class="node node--type-blog-post node--view-mode-full clearfix">
+  <header class="blog-post-header">
+                <div class="field field--name-field-blog-media-main-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=VchqS9F3 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=e72LMfUl 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=VdloqQfU 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=EJERtvNg 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/makiety-budowa-strony-internetowej.jpg?itok=VchqS9F3" alt="makiety budowa strony internetowej" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+      
+
+    <div class="blog-post-header-wrapper container">
+      <div class="node__meta">
+                  <article typeof="schema:Person" about="/user/37" class="profile">
+  </article>
+
+
+                      <span class="author_attributes">
+              <span class="field field--name-uid field--type-entity-reference field--label-hidden"><span lang="" about="/user/37" typeof="schema:Person" property="schema:name" datatype="">grzegorz.bartman</span></span>
+ /  28.10.2018            </span>
+                  
+        
+
+        <h1 class="node__title"><span class="field field--name-title field--type-string field--label-hidden">13 kroków do budowy dobrej strony internetowej dla firmy</span>
+</h1>
+      </div>
+
+      
+
+            <div class="field field--name-field-blog-category field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><a href="/blog/porady" hreflang="pl">Porady</a></div>
+              </div>
+      
+    </div>
+  </header>
+  <div class="node__content clearfix">
+    
+
+
+
+            <div class="field field--name-field-blog-sections field--type-entity-reference-revisions field--label-hidden field__items">
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p>Wiele osób myśli, że uruchomienie strony internetowej to najczęściej kupno gotowego szablonu dla Drupala, Worpdressa czy innego systemu, a następnie wrzucenie tego na serwer,  i że to koniec prac. Takim podejściem z góry skazujemy się na porażkę biznesową, stratę czasu i pieniędzy. Z tego poradnika dowiesz się jak dobrze zbudować serwis internetowy.</p>
+
+<h2>1. Określ cel istnienia strony internetowej</h2>
+
+<p>Niezależnie od tego, czy uruchamiasz pierwszą stronę internetową, czy robisz nową wersję istniejącej strony, musisz kierować się jakimś celem. Zakładam, że pracujesz w firmie (prawdopodobnie w dziale marketingu lub sprzedaży) lub jesteś jej właścicielem. W takim przypadku strona internetowa powstaje po to, aby przynosić korzyści biznesowe.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/tim-graf-229428-unsplash.jpg?itok=5lTgfdE7 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/tim-graf-229428-unsplash.jpg?itok=w8mFUyo_ 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/tim-graf-229428-unsplash.jpg?itok=OB8rawIQ 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/tim-graf-229428-unsplash.jpg?itok=z9cgUlra 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/tim-graf-229428-unsplash.jpg?itok=5lTgfdE7" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p>Najczęściej spotykane zadania stron internetowych to:</p>
+
+<ul><li>pozyskanie potencjalnych klientów poprzez wypełnienie formularza na stronie;</li>
+	<li>pozyskanie potencjalnych klientów poprzez zachęcenie ich do wizyty w siedzibie firmy;</li>
+	<li>pozyskanie potencjalnych klientów poprzez zachęcenie ich do kontaktu telefonicznego;</li>
+	<li>sprzedaż bezpośrednio przez stronę internetową (e-Commerce).</li>
+</ul><p><br />
+W przypadku formularzy możemy wyróżnić kilka ich wariantów. Najczęściej na stronie internetowej mamy jeden formularz kontaktowy, do którego kierujemy ruch ze wszystkich pozostałych podstron. Może się zdarzyć, że formularzy będzie więcej, np. jeśli oferujemy różne usługi i każda z nich wymaga innych danych od potencjalnego klienta.<br /><br />
+Cele tworzenia strony mogą się różnić od podanych wyżej celów przykładowych. Warto się zastanowić nad kwestią tego, po co właściwie budujemy stronę internetową, w jakim elemencie naszych procesów marketingowych i sprzedażowych będziemy chcieli ją wykorzystać.<br />
+ </p>
+
+<h2>2. Ustal sposób pracy - podziel projekt na etapy</h2>
+
+<p>Zanim przejdziemy dalej — pamiętaj o ważnej rzeczy, która sprawi, że uruchomisz szybko pierwszą wersję strony internetowej — podziel swoje wymagania odnośnie strony na listę kroków/części i realizuj je w etapach.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/rawpixel-659503-unsplash.jpg?itok=E_U4aUoB 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/rawpixel-659503-unsplash.jpg?itok=fIqQGPDk 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/rawpixel-659503-unsplash.jpg?itok=g7OxlPb7 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/rawpixel-659503-unsplash.jpg?itok=rsmN0iZ4 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/rawpixel-659503-unsplash.jpg?itok=E_U4aUoB" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p><br />
+Wielokrotnie widziałem bardzo długie listy elementów, które mają się znaleźć na stronie internetowej. Dział marketingu czy właściciel firmy często chciałby mieć na stronie wszystko to, co zobaczy u konkurencji czy też na innych stronach, i to najczęściej na wczoraj. To nie jest dobra droga.<br /><br />
+Spisuj wszystkie pomysły, ale w pierwszej wersji zrób tylko to, co rzeczywiście jest konieczne. Na początek (jeśli nie masz jeszcze strony w internecie) może to być nawet tylko strona główna z ogólnym opisem firmy i formularzem kontaktowym. Możesz to rozszerzyć o podstronę z opisem usług czy produktów.<br /><br />
+Dużo lepszym podejściem jest uruchomienie mniejszej/bardziej okrojonej wersji i sprawdzenie jak będą z niej korzystać użytkownicy, niż wielomiesięczne (czasem wieloletnie) budowanie dużego serwisu korporacyjnego, którego większość funkcji nie będzie używana przez użytkowników. Małe kroki i obserwacja zachowań użytkowników to najlepszy sposób, aby nie przepalić pieniędzy oraz czasu na niepotrzebne rzeczy na stronie.<br /><br />
+W niektórych przypadkach nie da się wystartować z bardzo małej strony, np. jeśli firma jest notowana na giełdzie, to musi umieścić na stronie szereg informacji (np. notowania, aktualności, dokumenty finansowe, itp.). Jednak i w takiej sytuacji zawsze można wydzielić elementy konieczne w pierwszej wersji strony i elementy opcjonalne - do realizacji w kolejnych etapach.</p>
+
+<h2><br />
+3. Zaplanuj strukturę treści</h2>
+
+<p><br />
+Struktura treści to dokument tekstowy opisujący co właściwie będzie się znajdować na stronie internetowej; co odwiedzający będzie mógł na niej znaleźć i przeczytać. Są różne sposoby tworzenia struktury treści: m.in. tekstowo, wizualnie (mapy myśli, diagramy).<br /><br />
+Poniżej znajdziesz przykładową strukturę treści. Będzie to tylko ogólny zarys, punkt startowy, który należy rozbudować o własny przypadek. Każda strona internetowa, każda firma będzie miała trochę inne cele, usługi, produkty, a więc też inną strukturę treści.<br /><br />
+Będę się starał rozbudowywać ten artykuł o kolejne przykłady struktury treści.</p>
+
+<h3><br />
+Struktura treści dla strony małej firmy usługowej</h3>
+
+<p><br />
+Ten przypadek można wykorzystać dla prawie każdej małej firmy usługowej, działającej często lokalnie. W opisie będzie kilka wstawek dla gabinetu weterynaryjnego, aby podać konkretne przykłady.</p>
+
+<ul><li>Strona główna:
+	<ul><li>Banner ze zdjęciem (np. biuro, zespół, itp.), główne hasło, krótki opis;</li>
+		<li>Nasz zespół: kto świadczy usługi, jakie ma doświadczenie;</li>
+		<li>Nasi klienci (jeśli to strona weterynarza to nasi podopieczni: zdjęcia zwierząt z opcjonalnymi opisami);</li>
+		<li>1-3 ostatnie wpisy na blogu.</li>
+	</ul></li>
+	<li>Nasz personel (nasz zespół):
+	<ul><li>Szczegółowe informacje o osobach realizujących usługi. Dlaczego klient powinien im zaufać i skorzystać z ich umiejętności.</li>
+	</ul></li>
+	<li>Pacjenci (klienci), portfolio, przykładowe realizacje:
+	<ul><li>Szerszy opis zwierząt, zdjęcie i opis rodzaju leczenia. Tu dużo więcej niż na stronie głównej. Opisujemy bardziej szczegółowo, aby klient znalazł na liście przypadek realizacji usługi potrzebny do tego, czego szuka.</li>
+	</ul></li>
+	<li>Jak możemy Ci pomóc (Usługi):
+	<ul><li>Podstrona z opisem najczęściej realizowanych usług. Dla weterynarza mogą to być np.: szczepienia, zabiegi, operacje, kontrole;</li>
+		<li>Warto rozbudować stronę z usługami o podstrony. Na stronie /uslugi/ zrobić listę wszystkich usług z krótkim opisem, a większy opis zrobić na podstronach, np : /uslugi/szczepienia-psow/, /uslugi/rtg-psow/, itp.;</li>
+	</ul></li>
+	<li>Blog/porady:
+	<ul><li>W czasie gdy dla Google bardzo liczy się treść, a content marketing jest bardzo ważnym elementem działań marketingowych, nie powinniśmy rezygnować z bloga. Regularnie, minimum raz na miesiąc, na stronie powinny się pojawiać nowe porady na blogu. Dla weterynarza mogą to być porady np: „Jak znaleźć dobrego weterynarza”, „Czy iść do weterynarza, jeśli mój pies ....”, „Czy zbadać psa/kota/.. na ....”, „Jakie szczepienia powinien mieć pies” itp. Chodzi o teksty, które mogą być wyszukiwane przez potencjalnych klientów i jednocześnie mogą być powiązane z jakąś płatną usługą;</li>
+		<li>Z treści bloga powinniśmy linkować do strony z usługami. np. na wpisie „Czy zrobić prześwietlenie łapy psa, jeśli kuleje” można dodać link do /uslugi/rtg-psow/.</li>
+	</ul></li>
+	<li>Kontakt:
+	<ul><li>Moim zdaniem na samej górze strony kontaktowej zawsze powinien być formularz. Dobrze jest zachęcać użytkowników strony do jego wypełniania. Taką akcję możemy później łatwo mierzyć, np. sprawdzać z jakich źródeł mamy najwięcej wypełnień formularza (z Adwords, z Facebooka, mailingu, itp). Wiemy wtedy, na jakich działaniach warto się skupić, aby pozyskać szersze grono internautów zainteresowanych naszą usługą/ofertą;</li>
+		<li>Pod formularzem powinna być mapka oraz dane teleadresowe;</li>
+		<li>Warto dodać na stronie kontaktu również odnośniki do profili w social media, opcję zapisania się na newsletter, itp.; czyli wszelkie opcje umożliwiające użytkownikowi dłuższy kontakt z nami.<br />
+		 </li>
+	</ul></li>
+</ul><h2>4. Dodaj blog do strony internetowej</h2>
+
+<p><br />
+Jak zauważyłeś, w powyższym przykładzie dodałem sekcję blogową. Uważam, że to bardzo istotna część każdej strony internetowej. Obecnie content marketing, szczególnie w B2B, jest jednym z głównych źródeł generowania leadów.<br /><br />
+Na etapie planowania swojej strony internetowej, zastanów się również nad tym, w jaki sposób będzie działał blog, jakiego typu treści będą publikowane, kto je będzie tworzył, jak często, gdzie będą dystrybuowane (social media, newsletter, itp.), skąd będą zdjęcia czy filmy.<br />
+ </p>
+
+<h2>5. Zaplanuj stronę główną oraz nawigację</h2>
+
+<p><br />
+Pamiętaj, że tworzysz stronę zarówno dla osób, które pierwszy raz ją odwiedzają, jak również dla tych, które już na niej były. Tym nowym użytkownikom musisz szybko zakomunikować, czym właściwie zajmuje się firma. Ponownie odwiedzającym musisz umożliwić łatwą i wygodną nawigację po całej strukturze strony oraz pozwolić na skontaktowanie się z Tobą w łatwy sposób - aby zakupić produkt/usługę.<br /><br />
+Dla nowych użytkowników często poświęca się górną część strony głównej. W tym miejscu należy wpisać krótko czym się firma zajmuje i zachęcić do obejrzenia dalszej części strony głównej lub innych podstron.<br />
+ </p>
+
+<h2>6. Zrób makiety (mockupy)</h2>
+
+<p><br />
+Zaplanuj teraz konkretnie, co będzie wyświetlane na każdej z podstron. Co będzie w menu, co w nagłówku, co w treści i w jakiej kolejności. Ten plan powinien być przemyślany. Warto na końcu każdej strony dodać CTA (call to action), czyli wezwanie użytkownika do działania. Takim CTA może być przycisk z napisem „skontaktuj się z nami”, który przekieruje użytkownika do strony kontaktowej.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default paragraph--full-screen-width">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/kaleidico-754517-unsplash.jpg?itok=77Y126yA 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/kaleidico-754517-unsplash.jpg?itok=GtT1wT8M 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/kaleidico-754517-unsplash.jpg?itok=3ux3BPDL 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/kaleidico-754517-unsplash.jpg?itok=VBXS_bQa 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/kaleidico-754517-unsplash.jpg?itok=77Y126yA" alt="Makiety mockups" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p>Aplikacje do robienia mockupów:</p>
+
+<ul><li>Google Docs - Rysunki lub Prezentacje <a href="https://www.google.pl/intl/pl/docs/about/" target="_blank">https://www.google.pl/intl/pl/docs/about/</a></li>
+	<li>Pencil <a href="https://pencil.evolus.xn--vn-2ca/" target="_blank">https://pencil.evolus.vn </a></li>
+	<li>UXPIN <a href="https://www.uxpin.com/" target="_blank">https://www.uxpin.com</a></li>
+</ul><p>Więcej alikacji można znaleźć w <a href="https://www.google.com/search?q=mockups+software" target="_blank">Google</a>.</p>
+
+<h2>7. Przygotuj treści</h2>
+
+<p><br />
+Przed budową strony internetowej przygotuj konkretne treści dla każdej z podstron. To z pozoru prosty etap, ale klienci kupujący usługę wykonania strony internetowej często mają problem z samodzielnym wypełnieniem strony treścią. Nie wiedzą jak się za to zabrać. Dlatego już na tym etapie warto przygotować treści.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/patrick-tomasso-71909-unsplash.jpg?itok=3EHGYFir 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/patrick-tomasso-71909-unsplash.jpg?itok=h02IAluM 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/patrick-tomasso-71909-unsplash.jpg?itok=TAMmhaBs 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/patrick-tomasso-71909-unsplash.jpg?itok=K0nPUwbL 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/patrick-tomasso-71909-unsplash.jpg?itok=3EHGYFir" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><h2>8. Zrób grafikę (design) </h2>
+
+<p><br />
+Treści przydadzą się w tym etapie. Jeśli grafik ma makiety oraz treści, wie ile tekstu będzie w danym akapicie, w danym bloku na stronie, to łatwiej mu zaprojektować ładnie wyglądającą stronę. Na podstawie mockupów i treści ten etap powinien przejść szybko i sprawnie. Zależnie od złożoności strony etap ten zajmie od kilkudziesięciu do kilkuset roboczogodzin.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default paragraph--full-screen-width">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/rawpixel-983657-unsplash_0.jpg?itok=c9D-1WkI 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/rawpixel-983657-unsplash_0.jpg?itok=I31N8Wpk 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/rawpixel-983657-unsplash_0.jpg?itok=gYP1mlvy 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/rawpixel-983657-unsplash_0.jpg?itok=70Jf0Ivt 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/rawpixel-983657-unsplash_0.jpg?itok=c9D-1WkI" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><h2>9. Wybierz technologię </h2>
+
+<p><br />
+Mamy makiety, treści, grafikę. Czas wybrać technologię. Warto uwzględnić w wyborze następujące czynniki:</p>
+
+<ul><li>Treści na stronie powinny być edytowalne z poziomu panelu administracyjnego, bez konieczności wzywania programisty do pomocy.</li>
+	<li>Małe zmiany konfiguracyjne powinny być również możliwe z poziomu panelu administracyjnego.</li>
+	<li>Strona to inwestycja, strona powinna działać 2-5 lat, warto wybrać rozwiązanie, które przetrwa ten czas, aby nie było konieczności budowy za rok strony od nowa.</li>
+	<li>Warto wybrać rozwiązanie, gdzie łatwo znaleźć pomoc. Jeśli to system komercyjny, to musi mieć dobre wsparcie producenta. Jeśli to system open source, to musi mieć dużą społeczność rozwijającą system oraz dużo firm świadczących usługi rozwoju i wsparcia.</li>
+</ul></div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/markus-spiske-666905-unsplash.jpg?itok=9jub1CIs 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/markus-spiske-666905-unsplash.jpg?itok=-dJn5uow 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/markus-spiske-666905-unsplash.jpg?itok=pZ1yfdWF 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/markus-spiske-666905-unsplash.jpg?itok=byUNWmGK 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/markus-spiske-666905-unsplash.jpg?itok=9jub1CIs" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p>W większości przypadków będziemy wybierać jedną z 2 opcji:</p>
+
+<ul><li>SAAS czyli system do budowy stron internetowych w modelu abonamentowym. Płacimy stałą niską kwotę miesięczną ale nie mamy wpływu na rozwój możliwości systemu. Czasem może się okazać, że nie będzie możliwe zrobienie w systemie tego, czego potrzebujemy.</li>
+	<li>System Open Source czyli darmowy system, który musimy dostosować pod nasze potrzeby. Tu mamy najczęściej jednorazową opłatę na początku i ewentualnie później opłaty za rozwój lub utrzymanie.</li>
+</ul><p><br />
+Systemy SAAS:</p>
+
+<ul><li>WIX</li>
+	<li>Squarespace</li>
+	<li>Site123</li>
+	<li>Weebly</li>
+</ul><p>Więcej znajdziesz w <a href="https://www.google.com/search?q=saas+website+builder" target="_blank">Google</a>.<br /><br />
+Systemy Open Source:</p>
+
+<ul><li><a href="https://pl.wordpress.org/" target="_blank">Wordpress</a>: najczęściej używany, szczególnie do małych stron.</li>
+	<li><a href="https://drupal.org/" target="_blank">Drupal</a>: mniej popularny w internecie ze względu na skomplikowanie przy budowie strony, jednak ma bardzo dużo możliwości rozwoju, integracji, jest bardzo bezpieczny. Drupal ma dużo gotowych dystrybucji, czyli zestawu modułów przeznaczonych pod konkretne potrzeby - <a href="https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=drupal_core%3A7234&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=iss_project_release_usage+desc&amp;op=Search" target="_blank">zobacz listę dystrybucji</a>. Jedną z dystrybucji jest <a href="https://www.droopler.pl/" target="_blank">Droopler</a> tworzony przez firmę Droptica. </li>
+</ul><p>Bardzo dobra lista systemów open source znajduje się pod adresem <a href="https://itsfoss.com/open-source-cms/" target="_blank">https://itsfoss.com/open-source-cms/</a><br />
+ </p>
+
+<h2>10. Zbuduj serwis internetowy</h2>
+
+<p><br />
+Po wyborze technologii można zacząć prace. Tutaj moim zdaniem ważne jest podzielenie prac na etapy i regularne obserwowanie postępu. Bardzo dobrze sprawdza się tutaj SCRUM, który wymusza na zespole i kliencie regularne przeglądy prac oraz dyskusje o kierunku. Najgorsze co może być to kilka tygodni pracy i dopiero na końcu prezentacja rezultatów. Wtedy często okazuje się, że wymagania zamawiającego nie zostały spełnione z różnych powodów, najczęściej z powodu braku dobrej komunikacji.<br />
+ </p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default paragraph--full-screen-width">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/_MG_1202%201_1%20copy.jpg?itok=BRfJIIpf 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/_MG_1202%201_1%20copy.jpg?itok=mSBZmcTA 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/_MG_1202%201_1%20copy.jpg?itok=qHj7cPdT 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/_MG_1202%201_1%20copy.jpg?itok=PdLkaVJ5 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/_MG_1202 1_1 copy.jpg?itok=BRfJIIpf" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><h2>11. Uruchom serwis internetowy na serwerze hostingowym</h2>
+
+<p><br />
+Do hostowania strony warto wybrać dobrze działający hosting. Może to być hosting współdzielony, serwer wirtualny, hosting w chmurze czy serwer dedykowany. Na małe strony wystarczą hostingi za kilkadziesiąt złotych miesięcznie. Na bardziej złożone serwisy z dużym ruchem często trzeba kilkaset czy nawet kilka tysięcy złotych miesięczne wydać na hosting.</p>
+</div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/architecture-business-cabinet-325229.jpg?itok=MHE9oLOS 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/architecture-business-cabinet-325229.jpg?itok=FblXkAH1 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/architecture-business-cabinet-325229.jpg?itok=5niyPbqQ 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/architecture-business-cabinet-325229.jpg?itok=AcwpSQwZ 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/architecture-business-cabinet-325229.jpg?itok=MHE9oLOS" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><h2>12. Dbaj o serwis i go rozwijaj (utrzymanie serwisu)</h2>
+
+<p><br />
+Utrzymanie strony to najczęściej:</p>
+
+<ul><li>Aktualizacje bezpieczeństwa systemów open source (np Wordpress, Drupal). Ważne, aby aktualizować system czy dodatkowe moduły tuż po pojawieniu się nowych wersji poprawiających bezpieczeństwo.</li>
+	<li>Wprowadzanie małych zmian na stronie, nie tylko w treści, ale też w konfiguracji.</li>
+	<li>Poprawa błędów znalezionych po uruchomieniu serwisu internetowego.</li>
+</ul></div>
+            
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-image paragraph--view-mode--default">
+          
+
+                    <div class="field field--name-field-d-p-blog-image-full-width field--type-boolean field--label-hidden field__item"></div>
+            
+
+            <div class="field field--name-field-d-media-image field--type-entity-reference field--label-hidden field__items">
+                  <div class="field__item"><div>
+  
+  
+
+                    <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
+                  <source srcset="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/cyber-security-cybersecurity-device-60504.jpg?itok=lArD9pQk 1x" media="all and (min-width: 75em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_1200/public/blog/node_23/cyber-security-cybersecurity-device-60504.jpg?itok=Ui0qVlrp 1x" media="all and (min-width: 62em) and (max-width: 74em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_992/public/blog/node_23/cyber-security-cybersecurity-device-60504.jpg?itok=ZQSh0gpG 1x" media="all and (min-width: 48em) and (max-width: 61em)" type="image/jpeg"/>
+              <source srcset="/sites/default/files/styles/responsive_image_768/public/blog/node_23/cyber-security-cybersecurity-device-60504.jpg?itok=ndsE2Vd4 1x" media="all and (min-width: 34em) and (max-width: 47em)" type="image/jpeg"/>
+                  
+  
+  
+<img src="/sites/default/files/styles/responsive_image_2000/public/blog/node_23/cyber-security-cybersecurity-device-60504.jpg?itok=lArD9pQk" alt="" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+            
+</div>
+</div>
+              </div>
+      
+      </div>
+</div>
+                  <div class="field__item">  <div class="clearfix paragraph paragraph--type--d-p-blog-text paragraph--view-mode--default">
+          
+
+                    <div class="clearfix text-formatted field field--name-field-d-long-text field--type-text-long field--label-hidden field__item"><p>O tym etapie też należy pamiętać. Często właściciele stron zapominają o utrzymaniu, a szczególnie o aktualizacjach bezpieczeństwa. Jest to proces, który koniecznie trzeba zaplanować, jeśli się chce posiadać stronę internetową.<br /><br />
+Warto też myśleć o rozwoju. Wraz z rozwojem firmy będzie potrzeba zmian na stronie internetowej. Warto wybrać rozwiązanie, które będzie umożliwiało taki rozwój (np. integrację z systemami <a href="https://pl.wikipedia.org/wiki/Zarządzanie_relacjami_z_klientami" target="_blank">CRM</a>, <a href="https://pl.wikipedia.org/wiki/Planowanie_zasobów_przedsiębiorstwa" target="_blank">ERP</a>, narzędziami marketingowymi, itp.).<br />
+ </p>
+
+<h2>13. Skieruj użytkowników na stronę internetową</h2>
+
+<p><br />
+Co z tego, że będziemy mieli ładną stroną wykonaną w solidnej technologii, jeśli nie będzie na niej użytkowników, którzy przełożą się na klientów. Wydamy pieniądze, ale nic na tym nie zarobimy.<br />
+Strona internetowa powinna być inwestycją w marketing i sprzedaż. Powinna się zwrócić. Konieczne jest więc zaplanowanie, jak użytkownicy mają trafiać na stronę internetową.<br />
+Jednym ze źródeł są wyszukiwarki. Warto zadbać, aby strona była dobrze zoptymalizowana pod wyszukiwarki (<a href="https://pl.wikipedia.org/wiki/Optymalizacja_dla_wyszukiwarek_internetowych" target="_blank">SEO</a>). Strona powinna posiadać odpowiednią strukturę treści, strukturę adresów URL, Sitemapy (XML i HTML), nagłówki (H1, H2, itp). Temat SEO jest dużo większy. Warto się z nim zapoznać budując stronę internetową lub skorzystać z porad specjalistów.<br /><br />
+Innymi źródłami wejść na stronę mogą być media społecznościowe. Warto zadbać o meta tagi, które poprawnie wyświetlą udostępniane podstrony.<br /><br />
+Dobrym źródłem ruchu są też newslettery. System powinien umożliwiać łatwą integrację np. z Mailchimp, Freshmail lub innym systemem.<br />
+ </p>
+
+<h2>Podsumowanie</h2>
+
+<p><br />
+Artykuł ten powstał, aby pomóc zaplanować budowę strony internetowej. Mam nadzieję, że się komuś przyda i pozwoli wyeliminować błędy oraz lepiej zaplanować prace. Artykuł będzie regularnie ulepszany, aby ten proces był jeszcze lepiej opisany. Jeśli masz propozycje usprawnień, to pisz na info@drupal.org.pl. Jeśli za pomocą tego artykułu poprowadziłeś budowę serwisu internetowego od początku do końca, to pochwal się tym i wyślij wiadomość na ten sam adres e-mail :)</p>
+</div>
+            
+      </div>
+</div>
+              </div>
+      
+  </div>
+</article>
+
+  </div>
+
+            </section>
+          </main>
+        </div>
+      </div>
+      </div>
+    <footer class="site-footer">
+          <div class="container-fluid">
+          <div class="region region-footer-main container">
+    
+
+<div id="block-footer" class="block block-block-content block-block-content092dd69e-c6c4-4f0a-9780-ec15b89ec5b5">
+  
+    
+      <div class="content">
+      
+    </div>
+  </div>
+
+  </div>
+
+                      </div>
+      </footer>
+
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/23","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"pl"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"UA-120413406-1","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EPowiadomienie o plikach cookie.\u003C\/h2\u003E\u003Cp\u003ETa strona korzysta z plik\u00f3w cookie. Pozostaj\u0105c na tej stronie, wyra\u017casz zgod\u0119 na korzystanie z plik\u00f3w cookie.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EDowiedz si\u0119 wi\u0119cej\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EZgadzam si\u0119\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022\u003ENie, dzi\u0119kuj\u0119\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy tapping any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EDowiedz si\u0119 wi\u0119cej\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EZgadzam si\u0119\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022\u003ENie, dzi\u0119kuj\u0119\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/polityka-prywatnosci","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"pl","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":null,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"opt_in","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EPowiadomienie o plikach cookie.\u003C\/h2\u003E\u003Cp\u003ETa strona korzysta z plik\u00f3w cookie. Pozostaj\u0105c na tej stronie, wyra\u017casz zgod\u0119 na korzystanie z plik\u00f3w cookie.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"containing_element":"body","settings_tab_enabled":false},"user":{"uid":0,"permissionsHash":"b8e56b53867e0befbec5688d6685cc01c281f0e2211921f97514ff23f802d424"}}</script>
+<script src="/sites/default/files/js/js_Pl6AQeS-T7cXsJbB2muUShjJsRZgpZ6ulCnnw7j638U.js"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?v=1.9" defer></script>
+
+  </body>
+
+<!-- Mirrored from www.drupal.org.pl/blog/13-krokow-do-budowy-dobrej-strony-internetowej-dla-firmy by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Jan 2022 13:01:48 GMT -->
+</html>
